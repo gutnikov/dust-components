@@ -1,0 +1,6 @@
+<div>
+	{@SVG width=width height=height}
+		{@svg.Circle
+			cx=circle.cx cy=circle.cy r=circle.radius stroke="green" strokeWidth=4 fill="yellow"/}
+	{/SVG}
+</div>

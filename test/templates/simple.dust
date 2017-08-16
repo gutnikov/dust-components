@@ -1,0 +1,3 @@
+<div>
+	{@Button className="simple-button" text="I'm a button"/}
+</div>

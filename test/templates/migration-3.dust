@@ -1,0 +1,8 @@
+<div>
+    <div class="container {containerClass}">
+        <h1>{containerHeaderText}</h1>
+        <div class="container-body">
+            {@AuthorsList itemClass="{itemClass}" authors=authors/}
+        </div>
+    </div>
+</div>

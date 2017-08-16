@@ -1,0 +1,5 @@
+<div>
+    {@Container className="{containerClass}" headerText="{containerHeaderText}"}
+        {@AuthorsList itemClass="{itemClass}" authors=authors/}
+    {/Container}
+</div>

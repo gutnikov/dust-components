@@ -1,0 +1,15 @@
+{
+	"containerClass" : "authors",
+	"containerHeaderText" : "Authors list:",
+	"itemClass" : "authors-item",
+	"authors" : [
+		{
+			"name" : "Dan",
+			"surname" : "Brown"
+		},
+		{
+			"name" : "Steven",
+			"surname" : "King"
+		}
+	]
+}

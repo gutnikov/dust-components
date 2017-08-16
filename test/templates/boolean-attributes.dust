@@ -1,0 +1,4 @@
+<div>
+	{@Button className="simple-button" disabled=state1 text="I'm a button"/}
+	{@Button className="simple-button" disabled=state2 text="I'm a button"/}
+</div>

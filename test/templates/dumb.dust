@@ -1,0 +1,10 @@
+<div>
+	<div class="container authors my-authors">
+		{#authors}
+			<div class="author author-item">
+				<div>{name}</div>
+				<div>{surname}</div>
+			</div>
+		{/authors}
+	</div>
+</div>

@@ -1,0 +1,4 @@
+<div>
+	{@Button className="simple-button" maxClicksBeforeExplode="10" text="I'm a button"/}
+</div>
+

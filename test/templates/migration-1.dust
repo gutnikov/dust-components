@@ -1,0 +1,14 @@
+<div>
+    <div class="container {containerClass}">
+        <h1>{containerHeaderText}</h1>
+        <div class="container-body">
+            {#authors}
+                <div class="author {itemClass}">
+                    <div class="author-name">{name}</div>
+                    <div class="author-surname">{surname}</div>
+                    {@Button className="button-vote" text="Like!"/}
+                </div>
+            {/authors}
+        </div>
+    </div>
+</div>

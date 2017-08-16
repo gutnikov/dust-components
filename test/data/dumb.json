@@ -1,0 +1,13 @@
+{
+  "text" : "Simple text inside",
+  "authors" : [
+    {
+      "name" : "Alexandr",
+      "surname" : "Pushkin"
+    },
+    {
+      "name" : "Steven",
+      "surname" : "King"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+<div>
+    <div class="container {containerClass}">
+        <h1>{containerHeaderText}</h1>
+        <div class="container-body">
+            {#authors}
+                {@Author className="{itemClass}" name="{name}" surname="{surname}"/}
+            {/authors}
+        </div>
+    </div>
+</div>
