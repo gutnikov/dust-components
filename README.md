@@ -4,10 +4,10 @@ Migrate your *Dust.js* codebase to pure components and *jsx* ( bit by bit ).
 
 ## Motivation ##
 
-This project might be interesting for those who decided to migrate to React but already has a codebase 
-built with *Dust.js*. With dust-components it's possible to use pure *React* components as regular dust helpers.
-It means that you can rewrite your codebase bit-by-bit replacing existing markup with pure components. 
-
+If you use *Dust.js* as your primary templating language and you have plans to migrate to *React* or at least to
+step closer to component-based approach, then this repo will probably be interesting for you. With *dust-components* 
+it's possible to use pure *React* components in form of regular dust helpers.
+ 
 ## Quick example ##
 
 Lets go through some refactoring steps of an example template:
@@ -46,7 +46,6 @@ function Button(props) {
 }
 
 module.exports = Button;
-
 ```
 
 After we imported and registered it (see *how to setup* section) we can rewrite original template as follows:
@@ -189,9 +188,9 @@ with yarn:
 yarn add dust-components
 ```
 
-### Set up component transformation ###
+### Build phase: set up component transformation ###
 
-To be able to use components in *dust* we have to provide custom pragma function when transforming them from jsx:
+Before components can be used - they have to be transformed with custom *pragma* function:
 
 ```javascript
 {
@@ -214,10 +213,10 @@ plugins: [
 ```
 
 
-### Register components ###
+### Runtime: register components as helpers ###
 
-After components has been transformed and bundled you have to register it as *dust helpers*. 
-In order to do that use *HelperFactory* that goes with this repo:
+Components has to be registered as *helpers* in order to be used in *Dust.js* templates.
+To do that use *HelperFactory* that goes with this repo:
 
 ```javascript
 // Import components:
