@@ -31,7 +31,7 @@ Lets go through some refactoring steps of an example template:
 
 At every step we will extract some part of a template markup into a component.
 
-### Step 1: Button###
+### Step 1: Button ###
 
 ```javascript
 const cx = require('classnames');
@@ -68,7 +68,7 @@ After we imported and registered it (see *how to setup* section) we can rewrite 
 </div>
 ```
 
-### Step 2: Author###
+### Step 2: Author ###
 
 ```javascript
 const cx = require('classnames');
