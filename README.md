@@ -48,7 +48,7 @@ function Button(props) {
 module.exports = Button;
 ```
 
-After we imported and registered it (see *how to setup* section) we can rewrite original template as follows:
+Now we can rewrite original template as follows:
 
 ```html
 <div>
@@ -66,6 +66,11 @@ After we imported and registered it (see *how to setup* section) we can rewrite 
     </div>
 </div>
 ```
+
+
+> Note: to be able to use @Button helper in template above, we had to import and register Button component first. 
+> See *How to setup* section for all instructions on doing that
+
 
 ### Step 2: Author ###
 
